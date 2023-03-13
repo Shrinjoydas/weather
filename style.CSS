@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://source.unsplash.com/random/2200x1180/?siliguri);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card{
+    background-color: rgb(2, 2, 2, 0.85);
+    color: aliceblue;
+    padding: 31px 28px;
+    border-radius: 38px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+h2 {
+    margin: 4px;
+    font-size: 35px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+border-radius: 26px;
+padding: 0.65em 1em;
+background-color:rgb(43 43 43);
+border: none;
+font-size: 120%;
+width: calc(100% - 50px);
+color: white;
+}
+
+button{
+border-radius: 50%;
+border: none;
+margin: 0.5em;
+height: 46px;
+width: 52px;
+font-size: 130%;
+background-color:rgb(43 43 43);
+color: aliceblue;
+cursor: pointer;
+transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #706f6f;
+  
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    padding: 7px ;
+    margin: 4px -18px;
+    margin-top: 13px;
+    font-size: 20px;
+}
+
+.humidity {
+    margin: 8px 6px;
+    padding: 4px 1px;
+}
+
+.speed{
+    padding: 0px 7px;
+}
+
+.bottom{
+    color: #a5a5a5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.screen.loading{
+    visibility: hidden;
+    display: none;
+
+}
